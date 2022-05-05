@@ -45,7 +45,6 @@ class Base:
         win.blit(BASE_IMG, (self.x1, self.y))
         win.blit(BASE_IMG, (self.x2, self.y))
 
-
 class Pipe:
     GAP = 200
     VEL = 5
@@ -86,7 +85,6 @@ class Pipe:
             return True
         
         return False
-
 
 class Bird:
 
